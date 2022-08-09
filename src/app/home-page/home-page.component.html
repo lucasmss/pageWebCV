@@ -1,43 +1,24 @@
-<mat-toolbar class="header-home">
-    <button mat-icon-button class="icon-menu" aria-label="Example icon-button with menu icon">
-        <mat-icon>menu</mat-icon>
-      </button>
-    <span>Lucas Mateus Silva</span>
-    <button mat-icon-button id="icon-home" class="icons-menu" aria-label="Example icon-button with menu icon">
-        <mat-icon>person</mat-icon>
-    </button>
-    <button mat-icon-button class="icons-menu" aria-label="Example icon-button with menu icon">
-        <mat-icon>work</mat-icon>
-    </button>
-    <button mat-icon-button class="icons-menu" aria-label="Example icon-button with menu icon">
-        <mat-icon>building</mat-icon>
-    </button>
-    <button mat-icon-button class="icons-menu" aria-label="Example icon-button with menu icon">
-        <mat-icon>email</mat-icon>
-    </button>
-    <button mat-icon-button class="icons-menu" aria-label="Example icon-button with menu icon">
-        <mat-icon>home</mat-icon>
-    </button>
+<mat-toolbar class="head-nave">
+    <mat-toolbar-row fxLayoutAlign="space-between center">
+        <div>
+            <button mat-button>
+                <span class="logo">Lucas Mateus Silva</span>
+            </button>
+        </div>
+        <div>    
+            <button mat-button>
+                <mat-icon>person</mat-icon>
+            </button>
+            <button mat-button>
+                <mat-icon>work</mat-icon>
+            </button>
+            <button mat-button>
+                <mat-icon>building</mat-icon>
+            </button>
+            <button mat-button>
+                <mat-icon>email</mat-icon>
+            </button>
+        </div> 
+    </mat-toolbar-row>   
 </mat-toolbar>
-<mat-grid-list cols="1" rowHeight="4:1">
-    <mat-grid-tile class="sub-header">
-        
-            <h1>Conversa</h1>
-            
-       
-    </mat-grid-tile>
-
-    <mat-grid-tile class="body-home">
-
-        <mat-card class="size-card">
-            <mat-card-title>Actions Buttons</mat-card-title>
-            <mat-card-content></mat-card-content>
-            <mat-card-actions align="end">
-              <button mat-button>Like</button>
-              <button mat-button>SHARE</button>
-            </mat-card-actions>
-        </mat-card>
-        
-    </mat-grid-tile>
-
-  </mat-grid-list>
+<app-body-page></app-body-page>

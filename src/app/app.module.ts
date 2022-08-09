@@ -13,18 +13,13 @@ import { MatTableModule } from '@angular/material/table';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatToolbarModule } from '@angular/material/toolbar';
-
-
-
-
-
-
-
-
+import { BodyPageComponent } from './body-page/body-page.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent
+    HomePageComponent,
+    BodyPageComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +33,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatExpansionModule,
     FormsModule,
     ReactiveFormsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    FlexLayoutModule
 
   ],
   providers: [],

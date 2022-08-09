@@ -1,26 +1,7 @@
-
-.header-home{
-    background-color: #a6b985;
+.head-nave{
+    background-color: #de8531;
 }
-
-.icon-menu{
-    margin-right: 2%;
+.logo{
+    padding: 0px 5px;
+    font-size: 20px;
 }
-
-#icon-home{
-    margin-left: 15%;
-}
-
-.icons-menu{
-    margin-right: 5%;
-}
-.sub-header{
-    background-color: #648a64;
-}
-.body-home{
-    background-color: #46685b;
-}
-.size-card{
-    max-width: 6000px;
-}
-  
