@@ -1,6 +1,9 @@
-.body-div{
-    background-color: #303f9f;
+.body-color{
+    background-color: #e0e0e0;
 }
-.body-div2{
-    background-color: #007aff;
+.body-div{
+    background-color: #f2a176;
+}
+.body-card{
+    max-width: 100%;
 }
